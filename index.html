@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -11,7 +14,7 @@
 <header>
     <div class="top-bar">
         <div class="logo">
-            <h1>boostwork.ai</h1>
+            <img src="path-to-logo.png" alt="Boostwork Logo" class="boostwork-logo"> <!-- Add your logo here -->
         </div>
         
         <div class="nav-links">
@@ -20,12 +23,41 @@
             <a href="#">Contact Us</a>
         </div>
     </div>
+
+ 
+    <!-- Select a Category Dropdown -->
+
 </header>
+<img src="path-to-logo.png" alt="Boostwork Logo" class="boostwork-logo">
 <input type="text" placeholder="Search AI Tools..." class="search-bar">
+<div class="category-select">
+    <select id="category-dropdown">
+        <option value="" disabled selected>Select a Category</option>
+        <option value="text-ai">📝 Text AI</option>
+        <option value="image-ai">🎨 Image AI</option>
+        <option value="audio-ai">🎙️ Audio AI</option>
+        <option value="data-ai">📊 Data AI</option>
+    </select>
+</div>
 <div class="container">
     <div class="category">
         <h2>📝 Text AI</h2>
         <div class="ai-list">
+            <div class="ai-tool">
+                <h3>ChatAI</h3>
+                <p>Generates human-like responses.</p>
+                <a href="#">Visit</a>
+            </div>
+            <div class="ai-tool">
+                <h3>ChatAI</h3>
+                <p>Generates human-like responses.</p>
+                <a href="#">Visit</a>
+            </div>
+            <div class="ai-tool">
+                <h3>ChatAI</h3>
+                <p>Generates human-like responses.</p>
+                <a href="#">Visit</a>
+            </div>
             <div class="ai-tool">
                 <h3>ChatAI</h3>
                 <p>Generates human-like responses.</p>
@@ -89,7 +121,7 @@
 </div>
 
 <footer>
-    <p>AI Tools Directory &copy; 2025. All rights reserved.</p>
+    <p>boostwork.ai &copy; 2025. All rights reserved.</p>
 </footer>
 
 </body>
