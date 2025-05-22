@@ -3,7 +3,7 @@ let toolsData = []; // Initialize toolsData as an empty array
 // Simulated fetch from a server
 async function gettoolsdata() {
   try {
-    const response = await fetch('http://13.51.136.131:3000'); // or your actual server domain
+    const response = await fetch('http://13.51.136.131:443'); // or your actual server domain
     const data = await response.json();
     console.log('Received data:', data);
     toolsData = data; // Store the fetched data
